@@ -6,7 +6,7 @@ pipeline  {
         FE_SWR_CREDENTIALS_PASSWORD = credentials('FE_SWR_CREDENTIALS')
         FE_SWR_URL = "registry.eu-west-0.prod-cloud-ocb.orange-business.com"
         FE_SWR_ORGANIZATION = "cicd_test"
-        DOCKER_IMAGENAME = "pong"
+        DOCKER_IMAGENAME = "pong_pipeline"
 
     }
 
