@@ -3,6 +3,6 @@ var app = express();
 app.get('/ping', function(req, res) {
     console.log("received");
     res.setHeader('Content-Type', 'text/plain');
-    res.end("PANG");
+    res.end("PONG");
 });
 app.listen(80);
